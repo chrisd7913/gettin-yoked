@@ -1,11 +1,8 @@
 # Gettin' Yoked
 
-A workout log that runs in the browser and works offline. Open
-https://chrisd7913.github.io/gettin-yoked/ on your phone, then use
-**Share → Add to Home Screen** (iPhone, Safari) or **⋮ → Add to Home screen /
-Install app** (Android, Chrome).
+A workout log that runs in your phone's browser and works offline.
 
-Your workouts are stored only on your own device. Use Settings → Export to
-back them up.
+- **Open the app:** https://chrisd7913.github.io/gettin-yoked/
+- **How to install and use it:** [GUIDE.md](GUIDE.md)
 
 This repository holds only the built app.
