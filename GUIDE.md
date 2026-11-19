@@ -100,8 +100,8 @@ The **gear icon** at the top right opens backups, import/export and settings.
 
 Your other options on Train:
 
-- **Repeat a past workout** starts with the same exercises as a workout you've done, with
-  last time's numbers shown.
+- **Repeat a past workout** starts with the same exercises as a workout you've done,
+  filled in with that workout's numbers.
 - **Blank workout** starts empty; add exercises as you go.
 
 Only one workout can be in progress at a time. If you leave the app, the Train tab has a
@@ -116,11 +116,14 @@ Each exercise card has one row per set:
 | **lb** (or kg) | The weight. For dumbbells, the weight of **one** dumbbell. |
 | **Reps** | How many reps you did. |
 | **RIR** | *Reps in reserve*: about how many more reps you could have done with good form. 0 = you couldn't do another; 2 = you had two left. |
-| ✓ | Tick it when the set's done. If you left the weight and reps empty, ticking fills in last time's numbers for you. |
 | ✕ | Deletes that set. |
 
 - **Add set** adds a set with the same numbers as the one above it. Adjust as needed.
 - **Grey numbers in empty boxes** are what you did last time, so you can see what to beat.
+- **Repeated workouts start filled in.** When you repeat a past workout or tap **Go** on a
+  block, every set starts with last time's numbers (a message at the bottom says so). Just
+  change whatever's different. If you skip an exercise, **Remove** it or clear its sets,
+  or the filled-in numbers will be saved as if you did them.
 - Above the sets, **Last (date):** lists your previous sets, and a **goal** tells you what
   to aim for: beat last time by a rep, or *"You hit the top of the range last time. Add
   weight."*
@@ -164,8 +167,8 @@ date, or delete it. There's also a **Workout notes** box at the bottom.
 
 ### Finishing a workout
 
-Tap **Finish**. Sets you left empty are removed, and the workout moves to **History**.
-You can still open and correct it there later.
+Tap **Finish**. Sets with nothing entered are removed; a set with anything entered (even
+just reps) is kept as you entered it. The workout moves to **History**.
 
 ### Routines
 
@@ -181,15 +184,18 @@ range, RIR) and, where it applies, a variation.
 ### Blocks
 
 A block (also called a *mesocycle*) is a stretch of weeks, usually about 8, where you run
-the same routine and push the numbers up. The app keeps count for you, so every workout
-shows where it falls, like **Week 3 · Workout #6**.
+the same routine, or a *split* of several routines in rotation (e.g. Upper / Lower), and
+push the numbers up. The app keeps count for you, so every workout shows where it falls,
+like **Week 3 · Workout #6**.
 
-- **To start a block:** go to **Blocks → New block**. Pick a routine, name it, and set
-  the start date and how many weeks you plan to run it. You can run several blocks at
-  once.
-- **To continue a block:** the **Train** tab lists your active blocks with a **Go**
-  button. That starts the next workout with the same exercises as your last one in the
-  block, with last time's numbers shown.
+- **To start a block:** go to **Blocks → New block**. Tap one routine, or several for a
+  split; they rotate in the order you tap them (the chips get numbered). Then name it,
+  and set the start date and how many weeks you plan to run it. You can run several
+  blocks at once.
+- **To continue a block:** the **Train** tab lists your active blocks, each showing which
+  routine is next. **Go** starts it, filled in with your numbers from the last time you
+  did that routine in the block. In a split, the **⋮** next to Go lets you do a different
+  routine today instead.
 - **The block's page shows:**
   - a chart of **total volume per workout** (weight × reps, all added up), so you can see
     workout-to-workout progress at a glance;
@@ -252,8 +258,11 @@ tapping its card on a block's page.
 
 ### History
 
-Every finished workout, newest first. Tap one to view or correct it, for example to fix a
-typo or set a variation you forgot.
+Every finished workout, newest first. Tap one to see it: each exercise's sets side by side
+with the previous time you did that exercise (and that date), what changed (e.g. *+2 reps*,
+*+15 lb*, green when it's better), and your estimated 1RM and volume for each exercise.
+
+To fix a mistake, tap the **pencil** at the top to edit, then **Done**.
 
 ### Backups, import and export
 
