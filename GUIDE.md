@@ -29,6 +29,8 @@ your strength is growing.
   - [Finishing a workout](#finishing-a-workout)
   - [Routines](#routines)
   - [Blocks](#blocks)
+  - [Resistance bands](#resistance-bands)
+  - [Plyometrics and distance](#plyometrics-and-distance)
   - [The Library and its filters](#the-library-and-its-filters)
   - [Adding and editing exercises](#adding-and-editing-exercises)
   - [Progress charts](#progress-charts)
@@ -143,6 +145,10 @@ or blank for bodyweight. On an *assisted* machine or with a band, enter the help
 **negative** number (−60 = 60 lb of help). That way, needing less help shows as progress.
 **Plank:** enter seconds in the Reps box.
 
+**Band exercises:** leave the weight blank and pick the band you used (see
+[Resistance bands](#resistance-bands)). **Jumps and throws:** some have an extra
+**Distance** box (see [Plyometrics and distance](#plyometrics-and-distance)).
+
 ### Exercise cards: demos, variations and more
 
 **The ⓘ button** opens the exercise's sheet:
@@ -224,12 +230,51 @@ like **Week 3 · Workout #6**.
 <img src="guide/block-detail.webp" width="270" alt="A block's page: volume per workout and progress by exercise">
 </p>
 
+### Resistance bands
+
+Band exercises (Band Pull-Apart, Lateral Band Walk, Clamshell and more) and exercises with
+a band option (Face Pull, Lateral Raise, Biceps Curl, Row and others: set **Equipment:
+Band**) have a **Band** chip for which band you used.
+
+- **Set up your bands once.** The first time you tap the Band chip, the app opens
+  **Resistance bands**. Tap **Add band** and describe each band you own by any of
+  **color**, **level** (XXX-Light to XXX-Heavy) and the **resistance** printed on it
+  (e.g. 15–35 lb). Then tap **Done, choose a band** to go back.
+- **After that**, the Band chip shows your bands to pick from, with a **gear** to add or
+  edit bands. You can also manage them any time from the gear icon → **Resistance bands**.
+- **Each band is tracked separately**, so "last time" and your progress charts always
+  compare the same band. Moving up to a heavier band is your sign of progress.
+
+<p>
+<img src="guide/bands.webp" width="270" alt="Your resistance bands">
+<img src="guide/band-picker.webp" width="270" alt="Choosing which band you used">
+</p>
+
+### Plyometrics and distance
+
+Plyometric exercises (Box Jump, Broad Jump, Pogo Hops, Med Ball Throw and more) are about
+quality, not fatigue: low reps (3–6), full rest, and stop as soon as your landings get
+sloppy. RIR doesn't mean much here; just log reps.
+
+Some exercises have an extra **Distance** (or **Height**) box on each set, in inches (or
+centimeters if the app is set to kg): Broad Jump, Lateral Bound and Med Ball Throw. It's
+optional. Progress charts can track your best distance, and finished workouts show how it
+changed. You can turn the box on for any exercise in **Edit exercise → Also record**.
+
+<p>
+<img src="guide/distance.webp" width="270" alt="Broad Jump with a Distance box on each set">
+</p>
+
 ### The Library and its filters
 
 **Library → Exercises** lists every exercise, each with a small demo picture.
 
-- **Filter by body part:** tap **Chest, Back, Shoulders, Arms, Core, Hips & glutes** or
-  **Legs**.
+- **Filter by type:** the top row picks **Weight Training**, **Resistance Bands**,
+  **Plyometrics** or **Bodyweight**. Some exercises are more than one type (Face Pull
+  works with a cable or a band).
+- **Filter by body part:** tap **Chest, Back, Shoulders, Arms, Core, Hips & glutes**,
+  **Legs** or **Calves**. Type and body part work together, e.g. Resistance Bands +
+  Shoulders.
 - **Then by muscle:** a second row appears with that body part's muscles, for example
   Shoulders → **Anterior delts, Medial delts, Posterior delts, Rotator cuff**.
 - **Include secondary:** the filter shows exercises where that muscle is a main target.
@@ -260,7 +305,10 @@ Tap **New exercise** in the Library or in the exercise picker. You can set:
 - **Name**, **Station / equipment**, and **Notes / cues**.
 - **Primary** and **Secondary muscles:** tap to choose from the list. These drive the
   filters.
+- **Type:** Weight Training, Resistance Bands, Plyometrics and/or Bodyweight, for the
+  type filter.
 - **Per limb by default:** for exercises done one side at a time.
+- **Also record:** adds a Distance or Height box to each set.
 - **Variations:** tap **Add variation type** for ready-made ones (Equipment, Grip, Grip
   width, Angle, Stance) or make your own. This keeps the library tidy: one *Lat Pulldown*
   with grip and handle options instead of ten separate pulldowns.
@@ -281,6 +329,7 @@ tapping its card on a block's page.
   - **Top weight:** your heaviest set.
   - **Volume:** weight × reps, all sets added up.
   - **Reps:** total reps.
+  - **Distance / Height:** your best, for exercises that record it.
 - **First / Latest / Best / Change** sum it up, followed by the chart and every session.
   Each session shows its change from the previous one, and new records get a **Best
   yet** badge.
@@ -325,8 +374,10 @@ before deleting the app or switching phones.
 
 ### Settings
 
-**Weight unit** switches between **lb** and **kg**. This only changes the label; numbers
-you've already entered aren't converted.
+- **Resistance bands:** the bands you own (see [Resistance bands](#resistance-bands)).
+- **Weight unit** switches between **lb** and **kg** (and distances between inches and
+  centimeters). This only changes the label; numbers you've already entered aren't
+  converted.
 
 ---
 
