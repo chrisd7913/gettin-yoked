@@ -91,7 +91,7 @@ The **gear icon** at the top right opens backups, import/export and settings.
 ### Your first workout
 
 1. On **Train**, tap **From a routine** and pick one. Two come built in:
-   - **Rebuilding Confidence:** six machine and cable exercises, an easy way in if you're
+   - **Rebuilding Confidence:** six exercises, mostly machines and cables plus a barbell bench press, an easy way in if you're
      new or coming back after a break.
    - **Full Body A:** five barbell lifts, mostly at one power rack.
 2. It asks **Count it toward a block?** If you're not sure yet, tap **No block**. You can
