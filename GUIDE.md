@@ -107,6 +107,10 @@ Your other options on Train:
 Only one workout can be in progress at a time. If you leave the app, the Train tab has a
 **Resume** button to get back to it.
 
+<p>
+<img src="guide/train.webp" width="270" alt="The Train tab: continue a block, or start a workout">
+</p>
+
 ### Logging sets
 
 Each exercise card has one row per set:
@@ -124,6 +128,10 @@ Each exercise card has one row per set:
   block, every set starts with last time's numbers (a message at the bottom says so). Just
   change whatever's different. If you skip an exercise, **Remove** it or clear its sets,
   or the filled-in numbers will be saved as if you did them.
+
+<p>
+<img src="guide/workout.webp" width="270" alt="A workout in progress, filled in with last time's numbers">
+</p>
 - Above the sets, **Last (date):** lists your previous sets, and a **goal** tells you what
   to aim for: beat last time by a rep, or *"You hit the top of the range last time. Add
   weight."*
@@ -144,7 +152,10 @@ or blank for bodyweight. On an *assisted* machine or with a band, enter the help
 - which muscles it works and where in the gym to do it
 - buttons for **Progress** and **Edit**
 
-<img src="assets/assets/exercises/pallof-press.webp" width="220" alt="Animated demo of a Pallof press">
+<p>
+<img src="guide/info.webp" width="270" alt="An exercise's sheet: animated demo, cues, Progress and Edit">
+<img src="guide/exercise-menu.webp" width="270" alt="The menu on an exercise card">
+</p>
 
 **Variation chips** sit under the exercise name. Many exercises come in versions, such as
 Bench Press with Barbell, Dumbbell or Machine, or Lat Pulldown with a straight bar or a
@@ -179,6 +190,10 @@ range, RIR) and, where it applies, a variation.
   set each one's **Sets**, **Min reps**, **Max reps** and **RIR**.
 - **To change one:** tap it. You can reorder or swap exercises, add notes, **Duplicate**
   it as a starting point for a new one, **Archive** it to hide it, or delete it.
+
+<p>
+<img src="guide/routine-editor.webp" width="270" alt="Editing a routine">
+</p>
 - **To find archived routines:** tap the **Show archived** chip.
 
 ### Blocks
@@ -204,6 +219,11 @@ like **Week 3 · Workout #6**.
   - every workout in the block.
 - **When you're done:** open the ⋮ menu and tap **End block**.
 
+<p>
+<img src="guide/new-block.webp" width="270" alt="New block: pick one routine, or several for a split">
+<img src="guide/block-detail.webp" width="270" alt="A block's page: volume per workout and progress by exercise">
+</p>
+
 ### The Library and its filters
 
 **Library → Exercises** lists every exercise, each with a small demo picture.
@@ -220,6 +240,11 @@ like **Week 3 · Workout #6**.
 
 The same filters appear whenever you **add an exercise** to a workout or routine, or
 **swap** one.
+
+<p>
+<img src="guide/library-filter.webp" width="270" alt="The Library filtered to Shoulders">
+<img src="guide/picker.webp" width="270" alt="Picking an exercise, filtered to Arms">
+</p>
 
 Tap an exercise to see its demo and cues. Its **⋮** menu has **Edit**, **Progress**,
 **Archive**, and **Delete**. An exercise you've already used can only be archived, so
@@ -240,6 +265,10 @@ Tap **New exercise** in the Library or in the exercise picker. You can set:
   width, Angle, Stance) or make your own. This keeps the library tidy: one *Lat Pulldown*
   with grip and handle options instead of ten separate pulldowns.
 
+<p>
+<img src="guide/edit-exercise.webp" width="270" alt="Editing an exercise: demos, muscles, variations">
+</p>
+
 ### Progress charts
 
 Open an exercise's **Progress** from its ⓘ sheet, from its ⋮ menu in the Library, or by
@@ -256,6 +285,10 @@ tapping its card on a block's page.
   Each session shows its change from the previous one, and new records get a **Best
   yet** badge.
 
+<p>
+<img src="guide/progress.webp" width="270" alt="Progress for Bench Press: chart and every session">
+</p>
+
 ### History
 
 Every finished workout, newest first. Tap one to see it: each exercise's sets side by side
@@ -263,6 +296,11 @@ with the previous time you did that exercise (and that date), what changed (e.g.
 *+15 lb*, green when it's better), and your estimated 1RM and volume for each exercise.
 
 To fix a mistake, tap the **pencil** at the top to edit, then **Done**.
+
+<p>
+<img src="guide/history.webp" width="270" alt="The History tab">
+<img src="guide/workout-view.webp" width="270" alt="A finished workout compared with the previous one">
+</p>
 
 ### Backups, import and export
 
@@ -280,6 +318,10 @@ before deleting the app or switching phones.
     sharing your training with a coach.
   - **All completed workouts.**
   - **Exercises and routines:** your library on its own, to share with a friend.
+
+<p>
+<img src="guide/settings.webp" width="270" alt="Backups, import and export, and settings">
+</p>
 
 ### Settings
 
