@@ -34,6 +34,7 @@ your strength is growing.
   - [The Library and its filters](#the-library-and-its-filters)
   - [Adding and editing exercises](#adding-and-editing-exercises)
   - [Progress charts](#progress-charts)
+  - [Muscle map](#muscle-map)
   - [History](#history)
   - [Backups, import and export](#backups-import-and-export)
   - [Settings](#settings)
@@ -272,13 +273,14 @@ changed. You can turn the box on for any exercise in **Edit exercise → Also re
 - **Filter by type:** the top row picks **Weight Training**, **Resistance Bands**,
   **Plyometrics** or **Bodyweight**. Some exercises are more than one type (Face Pull
   works with a cable or a band).
-- **Filter by body part:** tap **Chest, Back, Shoulders, Arms, Core, Hips & glutes**,
-  **Legs** or **Calves**. Type and body part work together, e.g. Resistance Bands +
+- **Filter by body part:** tap **Neck, Chest, Back, Shoulders, Arms, Core,
+  Hips & glutes**, **Legs** or **Calves**. Type and body part work together, e.g. Resistance Bands +
   Shoulders.
 - **Then by muscle:** a second row appears with that body part's muscles, for example
   Shoulders → **Anterior delts, Medial delts, Posterior delts, Rotator cuff**.
-- **Include secondary:** the filter shows exercises where that muscle is a main target.
-  Turn this on to also include exercises where it only helps.
+- **Include secondary:** the filter shows exercises where that muscle is a main target
+  (Primary). Turn this on to also include exercises where it helps (Secondary or
+  Auxiliary).
 - **Search:** in the exercise picker (when adding or swapping), type in the box at the
   top. It searches names, muscles (including common nicknames like "side delts") and
   equipment.
@@ -303,8 +305,10 @@ Tap **New exercise** in the Library or in the exercise picker. You can set:
   Each one's ⋮ menu has **Replace GIF**, **Change variation** (which version it shows), and
   **Remove**.
 - **Name**, **Station / equipment**, and **Notes / cues**.
-- **Primary** and **Secondary muscles:** tap to choose from the list. These drive the
-  filters.
+- **Muscles worked:** rate each muscle the exercise works, from **5 Primary** (a main
+  target) through **4 Secondary**, **3 Auxiliary** and **2 Minor** (mostly holding
+  position) to **1 Incidental** (barely involved). Rate by how hard the muscle works.
+  These drive the filters and the [muscle map](#muscle-map).
 - **Type:** Weight Training, Resistance Bands, Plyometrics and/or Bodyweight, for the
   type filter.
 - **Per limb by default:** for exercises done one side at a time.
@@ -336,6 +340,33 @@ tapping its card on a block's page.
 
 <p>
 <img src="guide/progress.webp" width="270" alt="Progress for Bench Press: chart and every session">
+</p>
+
+### Muscle map
+
+A front-and-back body diagram that colors each muscle by how much it's worked: **white**
+for not worked, **green** for the productive range, then yellow and orange up to **deep
+red** for too much. Aim to get the muscles you're training into the green without
+pushing any into the red.
+
+- **Where it appears:** at the bottom of the **routine editor** (what the routine works
+  as planned, updating as you change it); at the top of every **finished workout**; on a
+  workout in progress through the **body icon** at the top; and on **History** as **Last
+  7 days**.
+- **Tap a muscle** to see how many effective sets it got, whether that's under, optimal
+  or too much, and which exercises contributed.
+- **How it's counted:** every set adds to each muscle the exercise works, in full for a
+  Primary muscle, down to 0.6 for Secondary, 0.35 Auxiliary, 0.15 Minor and 0.05
+  Incidental. Easy sets count less (RIR 4: three quarters; RIR 5 or more: half), and so
+  do plyometric sets (half), since they train power more than muscle.
+- **Ranges:** for one session, green is 3–6 effective sets and deep red starts at 10. For
+  a week, green is 10–20 and deep red starts at 30 (most muscles grow best with about
+  10–20 hard sets a week). Change them in the gear icon → **Muscle map ranges**.
+- It's a guide, not a measurement: the ratings are educated estimates.
+
+<p>
+<img src="guide/map-week.webp" width="270" alt="Muscle map for the last 7 days">
+<img src="guide/map-workout.webp" width="270" alt="Muscle map for one workout">
 </p>
 
 ### History
@@ -375,6 +406,8 @@ before deleting the app or switching phones.
 ### Settings
 
 - **Resistance bands:** the bands you own (see [Resistance bands](#resistance-bands)).
+- **Muscle map ranges:** where green starts and ends and where deep red begins, for one
+  session and for a week.
 - **Weight unit** switches between **lb** and **kg** (and distances between inches and
   centimeters). This only changes the label; numbers you've already entered aren't
   converted.
